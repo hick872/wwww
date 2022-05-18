@@ -1435,6 +1435,7 @@ body::after {
 	background-color: transparent;
 	border-top-color: var(--background-modifier-accent);
 	display: inline-block;
+	background-color: #606060;
 	vertical-align: top;
   /* Set height to the line height of .text /
   height: 24px;
@@ -1447,20 +1448,13 @@ body::after {
   */
   -webkit-animation: blink 1s step-end infinite;
   animation: blink 1s step-end infinite;
-}
-
-@-webkit-keyframes blink {
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
-}
 
 @keyframes blink {
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+  0% ( opacity: 1.0; )
+  50% ( opacity: 0.0; )
+  100% ( opacity: 1.0; )
+	}
 }
-
 .container-A2jo65 {											/* textarea				reply								*/
 	background: rgba(var(--transparencycolor), .3);
 	border: none;
