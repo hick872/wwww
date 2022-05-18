@@ -1434,27 +1434,8 @@ body::after {
 .channelTextArea-1FufC0 {									/* textarea				channeltextarea						*/
 	background-color: transparent;
 	border-top-color: var(--background-modifier-accent);
-	display: inline-block;
-	background-color: #606060;
-	vertical-align: top;
-  /* Set height to the line height of .text /
-  height: 24px;
-  / 
-  Animation paramaters:
-  blink = animation-name, 
-  1s = animation-duration, 
-  step-end = animation-timing-function,
-  infinite = animation-iteration-count
-  */
-  -webkit-animation: blink 1s step-end infinite;
-  animation: blink 1s step-end infinite;
-
-@keyframes blink {
-  0% ( opacity: 1.0; )
-  50% ( opacity: 0.0; )
-  100% ( opacity: 1.0; )
-	}
 }
+
 .container-A2jo65 {											/* textarea				reply								*/
 	background: rgba(var(--transparencycolor), .3);
 	border: none;
